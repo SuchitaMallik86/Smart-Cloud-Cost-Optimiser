@@ -32,3 +32,30 @@ Matplotlib – Visualizations
 - Students/Researchers – to learn cloud cost analysis and dashboards
 - Startups/Companies – to avoid unnecessary cloud overspending
 
+# Installation & Usage
+
+1. Clone the repository
+
+$ git clone https://github.com/your-username/cloud-cost-dashboard.git
+$ cd cloud-cost-dashboard
+
+2. Install required dependencies
+
+$ pip install -r requirements.txt
+
+3. Prepare input files
+
+Download/export  AWS cost report.
+Download/export your Azure cost report.
+Place them in the same folder as the scripts
+
+4. Run the analysis scripts
+
+python AWS-cost-analysis.py
+python azure-cost-analysis.py
+
+5. Launch the dashboard
+
+streamlit run Cost_Dashboard.py
+
+6. Open the given local URL in your browser (usually http://localhost:8501/) to view the dashboard.
